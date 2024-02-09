@@ -36,7 +36,7 @@ public class DemoApplication {
 		double amount = randomOrderSize;
 		String[] textArray = {"3", "16"};
 		String userId = textArray[new Random().nextInt(textArray.length)];
-		String url = "http://3.94.244.225/api/orders/41";
+		String url = "http://3.94.244.225/api/orders/bot";
 		String formData = "{\n" +
 				"    \"clientOid\": \"0\",\n" +
 				"    \"productId\": \"BTC-USDT\",\n" +
